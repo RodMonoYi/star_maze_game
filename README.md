@@ -14,15 +14,14 @@ Um jogo interativo com interface gráfica em Python onde um robô percorre um la
 - Posicionamento de paredes no labirinto
 - Cálculo automático do melhor caminho usando A*
 - Visualização do custo de cada célula e do percurso total
-- Interface gráfica moderna com tkinter
-- Totalmente dockerizado 🐳
+- Interface gráfica intuitiva
+- Ambiente dockerizado 
 
 ---
 
 ## 📦 Requisitos
 
 - [Docker](https://www.docker.com/)
-- (Opcional para WSL): Servidor gráfico como [VcXsrv](https://sourceforge.net/projects/vcxsrv/) se você não usa **WSLg**
 
 ---
 
@@ -95,17 +94,17 @@ O objetivo é encontrar o caminho com menor custo total (f).
 👨‍💻 Desenvolvedores:
 
 Rodrigo Barreto Rodrigues
-    Desenvolvedor Web Fullstack & Criador de jogos
-    • Portfólio https://portfolio-roan-xi.vercel.app
-    • LinkedIn https://www.linkedin.com/in/rodrigo-barreto-dev/
-    • GitHub https://github.com/RodMonoYi
+ • Desenvolvedor Web Fullstack & Criador de jogos
+- Portfólio: https://portfolio-roan-xi.vercel.app
+- LinkedIn: https://www.linkedin.com/in/rodrigo-barreto-dev/
+- GitHub: https://github.com/RodMonoYi
 
 
 Deivid Santos
-    Desenvolvedor
-    • Portfólio
-    • LinkedIn 
-    • GitHub
+ • Desenvolvedor
+- Portfólio:
+- LinkedIn: 
+- GitHub:
 
 
 
