@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  labirinto:
+    build: .
+    container_name: labirinto-a-estrela
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - .:/app
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    network_mode: "host"  # permite usar o display local
+    privileged: true      # necessário para acesso ao X11
