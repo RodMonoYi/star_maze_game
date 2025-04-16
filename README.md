@@ -2,9 +2,9 @@
 
 Um jogo interativo com interface gráfica em Python onde um robô percorre um labirinto utilizando o algoritmo A* (A Estrela) para encontrar o caminho mais eficiente com base em custos de movimentação.
 
-<div align="center">
-  <img src="preview.png" alt="Preview do app" width="600"/>
-</div>
+<p align="center">
+  <img src="./src/assets/imgs/preview.png" alt="Preview principal" width="600"/>
+</p>
 
 ---
 
