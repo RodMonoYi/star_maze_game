@@ -10,12 +10,17 @@ Um jogo interativo com interface gráfica em Python onde um robô percorre um la
 
 ## 🚀 Funcionalidades
 
-- Definição de ponto inicial e final do robô
-- Posicionamento de paredes no labirinto
-- Cálculo automático do melhor caminho usando A*
-- Visualização do custo de cada célula e do percurso total
-- Interface gráfica intuitiva
-- Ambiente dockerizado 
+● Seleção do ponto inicial e final através de cliques no grid. 
+● Cálculo automático do melhor caminho usando A*
+● Exibição da rota encontrada ou mensagem de erro caso não exista caminho. 
+● Botão para redefinir o mapa e os pontos. 
+● Interface gráfica intuitiva
+● Visualização passo a passo do algoritmo 
+● Diferentes modos de interação (execução completa ou passo a passo) 
+● Sistema de cores intuitivo para acompanhamento do processo 
+● Botão para alternar a exibição das células entre o número da célula ou a matriz de custos (G, 
+H, F) de cada célula visitada/explorada
+● Ambiente dockerizado
 
 ---
 
@@ -37,7 +42,15 @@ cd labirinto-a-estrela
 ```bash
 docker-compose up --build
 ```
-4. Finalize
+### 2.1 Se estiver usando Docker no Linux (Nativo, não WSL)
+Se você estiver no Linux, certifique-se de permitir conexões X11 do container
+
+```bash
+xhost +local:root
+```
+Desconsidere se não estiver no linux
+
+### 3. Finalize
 Para parar o app:
 ```bash
 docker-compose down
