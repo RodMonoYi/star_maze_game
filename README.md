@@ -114,10 +114,9 @@ Rodrigo Barreto Rodrigues
 
 
 Deivid Santos
- • Desenvolvedor
-- Portfólio:
-- LinkedIn: 
-- GitHub:
+ • Desenvolvedor Web Back End
+- LinkedIn: https://www.linkedin.com/in/deividsantossz/
+- GitHub: https://github.com/deividSantosz
 
 
 
